@@ -5,12 +5,12 @@ export type Project = {
 };
 export const profile = {
  name: "王鑫", englishName: "Wang Xin", email: "39959772@qq.com", location: "中国 · 深圳",
- summary: "我关注 AI 如何进入企业的真实工作流。近二十年的技术与咨询实践，让我习惯从业务问题出发，连接模型、系统架构与产品交付。我的工作横跨大模型应用、供应链运筹优化和企业数字化，从早期验证一直走到系统集成与部署。",
+ summary: "擅长落地 AI 应用治理进入企业的真实工作流，从业务问题出发，连接模型、系统架构与产品交付。工作成果横跨大模型应用、供应链运筹优化和企业数字化，从链路调研验证一直收敛到系统集成与部署。",
  work: [
   { company: "深圳市大数据研究院", short: "SR", color: "teal", period: "曾任", role: "高级工程师", description: "从事供应链运筹优化、机器学习与企业系统架构相关工作，参与研究成果向产业场景的应用转化。已离职。", source: "https://www.sribd.cn/teacher/1009" },
   { company: "普华永道 · PwC", short: "pwc", color: "orange", period: "2021 — 2023", role: "数字化转型产品咨询经理 / 人工智能专家", description: "围绕企业数字化转型开展产品咨询与人工智能项目研发，推动大模型能力与具体业务需求结合。" },
-  { company: "埃森哲 · Accenture", short: ">", color: "purple", period: "2017 — 2020", role: "系统架构 / 数字化产品咨询经理 / 人工智能专家", description: "结合系统架构、数字化产品设计与深度学习技术，为行业客户推进数字化转型项目。" },
-  { company: "IBM", short: "IBM", color: "blue", period: "2007 — 2016", role: "项目经理 / 技术专家", description: "承担企业技术项目研发与交付工作，积累系统架构、工程实施和跨团队项目管理经验。" },
+  { company: "埃森哲 · Accenture", short: ">", color: "purple", period: "2017 — 2020", role: "系统架构 / 数字智能化咨询经理", description: "结合系统架构、数字化产品设计与深度学习技术，为行业客户推进数字化转型项目。" },
+  { company: "IBM", short: "IBM", color: "blue", period: "2007 — 2016", role: "产品项目经理 / 技术咨询专家", description: "承担企业技术项目研发与交付工作，积累系统架构、工程实施和跨团队项目管理经验。" },
  ],
  skills: [
   { label: "大模型与知识工程", items: ["LLM / AIGC", "RAG", "LangChain", "Prompt Engineering", "LoRA / P-Tuning"] },
